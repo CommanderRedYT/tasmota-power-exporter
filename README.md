@@ -6,9 +6,9 @@ Allows you to collect metrics directly from individual smart plugs without the u
 
 ## Grafana Dashboard
 
-Available in [grafana.json](./grafana.json)
+Available in [grafana.json](./grafana/grafana.json)
 
-![grafana](./grafana.png)
+![grafana](./grafana/grafana.png)
 
 ## Deployment
 
@@ -49,7 +49,7 @@ cd tasmota-power-exporter
 pip install -r requirements.txt
 ```
 
-All of the exporter code is found in [metrics.py](./metrics.py).
+All of the exporter code is found in [metrics.py](./tasmota_power_exporter/metrics.py).
 
 ## Contributors
 

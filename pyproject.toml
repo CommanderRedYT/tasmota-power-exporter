@@ -1,0 +1,14 @@
+[project]
+name = "tasmota_power_exporter"
+version = "1.0.0"
+dependencies = [
+    "prometheus_client",
+    "requests",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
