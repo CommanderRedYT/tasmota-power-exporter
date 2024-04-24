@@ -17,7 +17,7 @@ The GitHub actions pipeline automatically builds Docker images for ARM and x86 d
 Docker-Compose:
 ```
   tasmota:
-    image: ghcr.io/astr0n8t/tasmota-power-exporter:latest
+    image: ghcr.io/CommanderRedYT/tasmota-power-exporter:latest
     container_name: tasmota-power
     restart: always
     ports:
@@ -44,7 +44,7 @@ Prometheus Config:
 Perform the following:
 
 ```
-git clone https://github.com/astr0n8t/tasmota-power-exporter.git
+git clone https://github.com/CommanderRedYT/tasmota-power-exporter.git
 cd tasmota-power-exporter
 pip install -r requirements.txt
 ```
