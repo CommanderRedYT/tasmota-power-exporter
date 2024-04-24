@@ -10,6 +10,12 @@ Available in [grafana.json](./grafana/grafana.json)
 
 ![grafana](./grafana/grafana.png)
 
+## Installing
+
+```bash
+yay -S prometheus-tasmota-power-exporter
+```
+
 ## Deployment
 
 The GitHub actions pipeline automatically builds Docker images for ARM and x86 devices for simplified deployment.
