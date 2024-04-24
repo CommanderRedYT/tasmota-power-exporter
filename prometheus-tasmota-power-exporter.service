@@ -4,8 +4,8 @@ Requires=network-online.target
 After=network-online.target
 
 [Service]
-User=node_exporter
-Group=node_exporter
+User=tasmota_power_exporter
+Group=tasmota_power_exporter
 EnvironmentFile=-/etc/conf.d/prometheus-tasmota-power-exporter
 ExecStart=/usr/bin/prometheus-tasmota-power-exporter $TASMOTA_POWER_EXPORTER_ARGS
 ExecReload=/bin/kill -HUP $MAINPID
