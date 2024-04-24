@@ -6,6 +6,9 @@ dependencies = [
     "requests",
 ]
 
+[project.scripts]
+prometheus-tasmota-power-exporter = "tasmota_power_exporter:run_cli"
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"

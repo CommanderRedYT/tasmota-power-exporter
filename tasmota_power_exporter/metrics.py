@@ -116,8 +116,7 @@ def signal_handler(signal, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-if __name__ == '__main__':
-
+def run_exporter():
     port = getenv('EXPORTER_PORT', 8000)
 
     start_http_server(int(port))
@@ -126,3 +125,6 @@ if __name__ == '__main__':
     while(True):
         sleep(1)
     
+
+if __name__ == '__main__':
+    run_exporter()
